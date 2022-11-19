@@ -1,0 +1,75 @@
+@media (max-width: 1024px) {
+  .ts-main-slider .owl-nav {
+    display: none; } }
+
+@media (max-width: 992px) {
+  .header-classic .navbar-light {
+    padding: 10px 0; }
+  .header .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 22;
+    background: #222222; }
+  .header .navbar-light .nav-search-area a i {
+    margin-left: 15px; }
+  .header .navbar-light .navbar-nav > li > a {
+    line-height: 50px;
+    color: #e4e4e4; }
+    .header .navbar-light .navbar-nav > li > a:hover, .header .navbar-light .navbar-nav > li > a:focus {
+      color: #000; }
+  .header .navbar-light .navbar-nav > li::before {
+    display: none; }
+  .header .navbar-light .navbar-nav > li.active > a:before {
+    display: none; }
+  .header .navbar-light .navbar-nav li ul.dropdown-menu {
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .header .navbar-light .navbar-nav li ul.dropdown-menu li.dropdown:after {
+      right: -9px;
+      color: #fff; }
+    .header .navbar-light .navbar-nav li ul.dropdown-menu li a {
+      color: #fff;
+      border-top: none; }
+  .header .navbar-light .navbar-nav li .dropdown-item:hover, .header .navbar-light .navbar-nav li .dropdown-item:focus {
+    background-color: transparent !important;
+    color: #fff !important; }
+  .header.header-solid {
+    padding: 10px 0; }
+    .header.header-solid .navbar-collapse {
+      background: #fff; }
+    .header.header-solid .navbar .nav-search-area {
+      display: none; }
+    .header.header-solid .navbar-light .navbar-toggler {
+      padding-right: 0; }
+    .header.header-solid .navbar-light .navbar-nav > li > a {
+      color: #000; } }
+
+@media (max-width: 767px) {
+  .topbar .topbar-left-content {
+    padding: 20px 0 0; }
+  .topbar .social-links {
+    padding: 10px 0 20px; }
+  .topbar.topbar-gray .top-info {
+    padding-top: 20px; }
+    .topbar.topbar-gray .top-info li {
+      padding-right: 0;
+      border: none; }
+  .logo-area {
+    text-align: center; }
+    .logo-area .site-desc {
+      margin-bottom: 0; }
+  .tranding-bar {
+    display: none; }
+  .copyright-area {
+    padding: 20px 0; }
+  .blog-single .sidebar-col {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12; }
+  .blog-single .post-image {
+    margin-bottom: 20px; }
+  .sidebar {
+    margin-top: 40px; } }
